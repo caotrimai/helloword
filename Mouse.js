@@ -1,13 +1,12 @@
 function Mouse(name) {
     this.name = name;
-    this.death = false;
 }
 
-Mouse.prototype.move(){
+Mouse.prototype.move = () => {
     console.log('I\'m moving... ');
 }
 
-Mouse.prototype.death(){
+Mouse.prototype.death = function(){
     this.death =true;
 }
 

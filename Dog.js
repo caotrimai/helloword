@@ -3,7 +3,7 @@ function Dog(name) {
     this.stomach =[];
 }
 
-Dog.prototype.eat(cat){
+Dog.prototype.eat = function(cat){
     this.stomach.push(cat);
 }
 
