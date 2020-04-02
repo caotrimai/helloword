@@ -5,6 +5,7 @@ function Cat(name) {
 
 Cat.prototype.eat(mouse){
 this.stomach.push(mouse);
+mouse.death();
 }
 
 module.exports = Cat;
